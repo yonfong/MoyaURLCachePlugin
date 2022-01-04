@@ -1,0 +1,6 @@
+framework module MoyaURLCachePlugin {
+  umbrella header "MoyaURLCachePlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

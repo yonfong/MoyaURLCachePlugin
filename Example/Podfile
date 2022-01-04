@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MoyaURLCachePlugin_Tests' do
+  pod 'MoyaURLCachePlugin', :path => '../'
+  
+  
+end

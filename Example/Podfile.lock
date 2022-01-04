@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - MoyaURLCachePlugin (0.1.0):
+    - Moya
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - MoyaURLCachePlugin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Result
+
+EXTERNAL SOURCES:
+  MoyaURLCachePlugin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  MoyaURLCachePlugin: 5b4dd31d924dccff9dafa6ab40ef0e9f0ecdf356
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 503bd755591e80be0eb1033e0a15dcf1821b1ef3
+
+COCOAPODS: 1.11.2
